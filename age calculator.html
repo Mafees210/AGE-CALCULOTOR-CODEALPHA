@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="age calculator.css">
+</head>
+<body>
+    <div id="background-wrap">
+        <div class="bubble x1"></div>
+        <div class="bubble x2"></div>
+        <div class="bubble x3"></div>
+        <div class="bubble x4"></div>
+        <div class="bubble x5"></div>
+        <div class="bubble x6"></div>
+        <div class="bubble x7"></div>
+        <div class="bubble x8"></div>
+        <div class="bubble x9"></div>
+        <div class="bubble x10"></div>
+    </div>
+    <div id="background-wrap">
+        <div class="bubble x1"></div>
+        <div class="bubble x2"></div>
+        <div class="bubble x3"></div>
+        <div class="bubble x4"></div>
+        <div class="bubble x5"></div>
+        <div class="bubble x6"></div>
+        <div class="bubble x7"></div>
+        <div class="bubble x8"></div>
+        <div class="bubble x9"></div>
+        <div class="bubble x10"></div>
+    </div>
+    <div class="cat">
+        <div class="ear ear--left"></div>
+        <div class="ear ear--right"></div>
+        <div class="face">
+            <div class="eye eye--left">
+                <div class="eye-pupil"></div>
+            </div>
+            <div class="eye eye--right">
+                <div class="eye-pupil"></div>
+            </div>
+            <div class="muzzle"></div>
+        </div>
+    </div>
+   
+    <div class="container">
+        <h1> <span> Welcome to </span> <br>Age Calculator </h1>
+        <div class="form">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob">
+            <button onclick="calculateAge()">Calculate Age</button>
+        </div>
+        <div class="result">
+            <p>Your age is:</p>
+            <p id="ageResult">0 YEARS, 0 MONTHS, 0 DAYS</p>
+        </div>
+        <footer><center><b>Create by MGM Mafees Srilanka</b></center></footer>
+    </div>
+    
+    <script src="age calculator.js"></script>
+</body>
+</html>
